@@ -1,6 +1,7 @@
 pipeline {
     environment {
-        docker_image = ''
+        docker_image = 'calculator'
+        github_repo_url = 'https://github.com/aditisingh0409/CalculatorMiniProject'
     }
     agent any
 
